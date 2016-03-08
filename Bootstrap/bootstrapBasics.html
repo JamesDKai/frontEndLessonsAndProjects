@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Basics</title>
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- Style tag below overrides/changes the default bootstrap styling -->
+	<style type="text/css">
+	.btn-danger {
+		background: red;
+	}
+	</style>
+</head>
+<body>
+	
+	<h1>Bootstrap Basics</h1>
+
+	<button class="btn btn-danger btn-lg">Click Me!</button>
+	<button class="btn btn-success btn-lg active">Click Me!</button>
+	<button class="btn btn-success btn-lg" disabled="disabled">Click Me!</button>
+
+	<button class="btn btn-success btn-lg">Click Me!</button>
+
+	<a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+
+	
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1>This is a Jumbotron</h1>
+			<p>Bacon ipsum dolor amet tri-tip strip steak spare ribs venison ground round pork chop jerky jowl capicola chuck hamburger chicken doner ham kevin. Spare ribs meatball beef t-bone prosciutto bacon tri-tip frankfurter brisket ball tip cow. Beef ribs short loin chicken drumstick swine alcatra kevin pancetta pork loin bacon picanha ribeye t-bone brisket. Landjaeger andouille pork loin boudin t-bone pork chop porchetta biltong shankle bresaola. Porchetta biltong meatball kielbasa t-bone short loin. Pork ball tip alcatra pork loin turkey, tongue salami short ribs shankle kielbasa beef ribs shoulder pig ham sirloin. Pork loin flank leberkas landjaeger, brisket alcatra bresaola turducken swine pork.</p>
+
+			<button class="btn btn-success btn-large">Learn more</button>
+
+		</div>
+
+		<div>
+		<h1>Bootstrap Basics</h1>
+
+		<button class="btn btn-danger btn-lg">Click Me!</button>
+		<button class="btn btn-success btn-lg active">Click Me!</button>
+		<button class="btn btn-success btn-lg" disabled="disabled">Click Me!</button>
+
+		<button class="btn btn-success btn-lg">Click Me!</button>
+
+		<a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+		</div>
+
+		<!-- .form-group
+		.form-control -->
+
+		<form>
+  			<div class="form-group">
+    			<label for="exampleInputEmail1">Email address</label>
+    			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  			</div>
+  			<div class="form-group">
+    			<label for="exampleInputPassword1">Password</label>
+    			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  			</div>
+  			<div class="form-group">
+    			<label for="exampleInputFile">File input</label>
+    			<input type="file" id="exampleInputFile">
+    			<p class="help-block">Example block-level help text here.</p>
+  			</div>
+  			<div class="checkbox">
+    			<label>
+     	 		<input type="checkbox"> Check me out
+    		</label>
+  			</div>
+  				<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+
+		<!-- Inline Form -->
+
+		<form class="form-inline">
+  			<div class="form-group">
+    			<label for="exampleInputName2">Name</label>
+   				 <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+  			</div>
+  			<div class="form-group">
+    			<label for="exampleInputEmail2">Email</label>
+    			<input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+  			</div>
+  			<button type="submit" class="btn btn-default">Send invitation</button>
+		</form>
+		
+	</div>	
+
+</body>
+</html>
